@@ -4,46 +4,57 @@ import React from 'react'
 
 const DiscoverHealthBenefitsOfCrops = () => {
   return (
+
     <div className='flex flex-col gap-4'>
-      <div><p>Sustainability</p></div>
-      <div><h2>Our Innovative Farming Techniques Explained</h2></div>
-      <div>
-        <p>At Richwood Farms Ltd, we utilize advanced agricultural techniques to ensure optimal crop growth. Our methods focus on sustainability, soil health, and efficient water usage. This allows us to produce high-quality onions, garlic, ginger, and potatoes while minimizing our environmental impact.</p>
-      </div>
       <div className='flex flex-col gap-4'>
-        <div className='flex flex-col '>
-          <div>
-            <Image
-              src=''
-              alt=''
-              width={24}
-              height={24}
-            />
+        <div><p className=''>Fresh</p></div>  
+        <div><h2 className='text-3xl'>Discover the Health Benefits of Our Cash Crops</h2></div>  
+        <div><p>Our crops are packed with essential nutrients that promote overall health. Incorporating onions, garlic, ginger, and potatoes into your diet can enhance your immune system and improve digestion.</p></div>  
+        <div className='flex flex-col gap-4'>
+          <div className='flex flex-row gap-2'>
+            <div className=''>
+              <Image 
+                src='' 
+                alt=''
+                width={24}
+                height={24}
+              />
+            </div>
+            <div><p>Rich in vitamins and minerals for optimal health</p></div>
           </div>
-          <div><h3>Soil Preparation and Crop Selection</h3></div>
-        </div>
-        <div>
-          <Image
-            src=''
-            alt=''
-            width={24}
-            height={24}
-          />
-        </div>
-        <div><h3>Irrigation and Water Management Practices</h3></div>
-        <div>
-          <Image
-            src=''
-            alt=''
-            width={24}
-            height={24}
-          />
-        </div>
-        <div><h3>Harvesting Techniques for Optimal Quality</h3></div>
+          <div className='flex flex-row gap-2'>
+            <div className=''>
+              <Image 
+                src='' 
+                alt=''
+                width={24}
+                height={24}
+              />
+            </div>
+            <div><p>Supports immune function and boosts energy levels</p></div>
+          </div>
+          <div className='flex flex-row gap-2'>
+            <div className=''>
+              <Image 
+                src='' 
+                alt=''
+                width={24}
+                height={24}
+              />
+            </div>
+            <div><p>Versatile ingredients for delicious and nutritious meals</p></div>
+          </div>
+        </div>  
+        <div><Button variant={'outline'}>Learn More</Button></div>  
       </div>
       <div>
-        <Button variant={'outline'}>Learn More</Button>
-      </div>
+        <Image
+          src=''
+          alt=''
+          height={250}
+          width={250}
+        />
+      </div>  
     </div>
   )
 }

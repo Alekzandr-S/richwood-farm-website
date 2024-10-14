@@ -7,10 +7,12 @@ import ExploreComprehensiveAgriServices from "./components/Explore-Comprehensive
 import GetInTouch from "./components/Get-In-Touch";
 import JoinUs from "./components/Join-Us";
 import StayUpdated from "./components/Stay-Updated";
+import CultivatingQualityCrops from "./components/Cultivating-Quality-Crops";
+import Connect from "./components/Connect";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-items-center pt-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col items-cente justify-items-center pt-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <section  className="px-8">
         <HeroSection />
       </section>
@@ -27,12 +29,16 @@ export default function Home() {
         <ExploreComprehensiveAgriServices />
       </section>
       <section className="px-8">
+        <CultivatingQualityCrops />
+      </section>
+      <section className="px-8">
         <JoinUs />
       </section>
       <section className="px-8">
         <StayUpdated />
       </section>
       <section className="px-8">
+        {/* <Connect /> */}
         <GetInTouch />
       </section>
     </div>

@@ -6,55 +6,32 @@ const DiscoverPremiumCropSelection = () => {
   return (
     <div className='flex flex-col gap-4'>
       <div className='flex flex-col gap-4'>
-        <div><p className=''>Fresh</p></div>  
-        <div><h2 className='text-3xl'>Discover the Health Benefits of Our Cash Crops</h2></div>  
-        <div><p>Our crops are packed with essential nutrients that promote overall health. Incorporating onions, garlic, ginger, and potatoes into your diet can enhance your immune system and improve digestion.</p></div>  
-        <div className='flex flex-col gap-4'>
-          <div className='flex flex-row gap-2'>
-            <div className=''>
-              <Image 
-                src='' 
-                alt=''
-                width={24}
-                height={24}
-              />
-            </div>
-            <div><p>Rich in vitamins and minerals for optimal health</p></div>
-          </div>
-          <div className='flex flex-row gap-2'>
-            <div className=''>
-              <Image 
-                src='' 
-                alt=''
-                width={24}
-                height={24}
-              />
-            </div>
-            <div><p>Supports immune function and boosts energy levels</p></div>
-          </div>
-          <div className='flex flex-row gap-2'>
-            <div className=''>
-              <Image 
-                src='' 
-                alt=''
-                width={24}
-                height={24}
-              />
-            </div>
-            <div><p>Versatile ingredients for delicious and nutritious meals</p></div>
-          </div>
-        </div>  
-        <div><Button variant={'outline'}>Learn More</Button></div>  
+        <div>
+          <Image
+            src=''
+            alt=''
+            width={24}
+            height={24}
+          />
+        </div>
+        <div className='text-3xl'>
+          <h2>Discover Our Premium Cash Crop Selections</h2>
+        </div>
+        <div><p>At Richwood Farms, we specialize in cultivating high-quality onions, garlic, ginger, and potatoes. Our commitment to sustainable farming practices ensures that you receive fresh, flavorful produce straight from our fields.</p></div>
+        <div>
+          <Button>Learn More</Button>
+        </div>
       </div>
       <div>
-        <Image
+        <Image 
           src=''
           alt=''
-          height={250}
-          width={250}
+          width={24}
+          height={24}
         />
-      </div>  
+      </div>
     </div>
+    
   )
 }
 
