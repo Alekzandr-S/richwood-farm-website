@@ -12,7 +12,7 @@ import Connect from "./components/Connect";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-cente justify-items-center pt-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col justify-items-center pt-8 pb-20 gap-16 lg:pt-16 2xl lg:gap-32 2xl:gap-48 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <section  className="px-8">
         <HeroSection />
       </section>
@@ -38,7 +38,6 @@ export default function Home() {
         <StayUpdated />
       </section>
       <section className="px-8">
-        {/* <Connect /> */}
         <GetInTouch />
       </section>
     </div>
